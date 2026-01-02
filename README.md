@@ -22,7 +22,7 @@ All websites used in this lab were created and hosted by the author solely for e
 - Network|Host-only/NAT (isolated lab)
 
 ### Attack Simulation Workflow
-### 1. Website Cloning
+#### 1. Website Cloning
 - Created a temporary, publicy accessible test website specifically for this lab
 - Used HTTrack to clone the site to simulate how attackers mirror legitamate web content
 - Preserved directory structure and internal links for realism
