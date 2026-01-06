@@ -1,19 +1,22 @@
 # Website Cloning and Hosts File Spoofing Project
 ### Overview
-This project demonstates how website cloning combined with local DNS manipulation can be used to simulate phishing and social engineering attacks in a controlled lab enviroment. The lab focuses on understanding attacker techniques and documenting defensive detection and mitigation opportunities.
+This project demonstrates how website cloning combined with local DNS manipulation can be used to simulate phishing and social engineering attacks in a controlled lab environment. The lab focuses on understanding attacker techniques and documenting defensive detection and mitigation opportunities.
 
-All activity was performed in isloated virtual machines for educational and defensive analysis purposes. All websites used in this lab were created and hosted by the author solely for educational purposes.
+All activity was performed in isolated virtual machines for educational and defensive analysis purposes. All websites used in this lab were created and hosted by the author solely for educational purposes.
 
 
 ### Lab Objectives
 -  Clone a test website for offline hosting
 -  Modify cloned content to simulate malicious document delivery
--  Redirect domain traffic using the Window hosts file
+-  Redirect domain traffic using the Windows hosts file
 -  Test spoofed domain access from a client system
 -  Analyze defensive detection and mitigation strategies
 
-### Enviroment
-#### Component|Details
+### Environment
+| Component  | Details            |
+|:-----------|:------------------:|
+| Hypervisor | VMware Workstation |
+
 - Hypervisor|VMware Workstation
 - ClientVM|Windows(hosts file modification & user access)
 - ServerVM|Ubuntu Linux (web hosting)
@@ -22,8 +25,8 @@ All activity was performed in isloated virtual machines for educational and defe
 
 ### Attack Simulation Workflow
 #### 1. Test Website Creation & Cloning
-- Created a temporary, publicy accessible test website specifically for this lab
-- Used HTTrack to clone the site to simulate how attackers mirror legitamate web content
+- Created a temporary, publicly accessible test website specifically for this lab
+- Used HTTrack to clone the site to simulate how attackers mirror legitimate web content
 - Preserved directory structure and internal links for realism
 - No real organization or production websites were used
 
@@ -65,7 +68,7 @@ All activity was performed in isloated virtual machines for educational and defe
 <img width="1024" height="684" alt="06_pdf_delivery_success" src="https://github.com/user-attachments/assets/06ffcd78-5530-46dc-828f-efcf96b05da6" />
 
 ### Defensive and Detection Analysis
-This lab highlights several defensive considerations relevant to enterprise enviroments:
+This lab highlights several defensive considerations relevant to enterprise environments:
 - Hosts file tampering
       - Monitor unauthorized changes to:
           C:\Windows\System32\drivers\etc\hosts
@@ -79,7 +82,7 @@ This lab highlights several defensive considerations relevant to enterprise envi
 Additional defensive discussion is available in notes/defensive_analysis.md
 
 ### Ethical and Legal Notice
-This project was conducted strictly within an isolated lab enviroment. No real users, credentials, or production systems were targeted. All content and infrastructure were created solely for educational and defensive research purposes.
+This project was conducted strictly within an isolated lab environment. No real users, credentials, or production systems were targeted. All content and infrastructure were created solely for educational and defensive research purposes.
 
 ### Key Skills Demonstrated
 - Virtualization and lab isolation
