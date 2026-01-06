@@ -26,3 +26,6 @@ All activity was performed in isloated virtual machines for educational and defe
 - Used HTTrack to clone the site to simulate how attackers mirror legitamate web content
 - Preserved directory structure and internal links for realism
 - No real organization or production websites were used
+
+<img width="1280" height="800" alt="02_modified_site_content" src="https://github.com/user-attachments/assets/92cbdbae-acbe-477c-b89c-18a26c84513a" />
+
