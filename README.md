@@ -42,7 +42,8 @@ All activity was performed in isloated virtual machines for educational and defe
 - Edited the Windows hosts file to override DNS resolution and redirect a lab domain to the Ubuntu server:
     #### <server_ip> training-portal.local
 - Applied changes by flushing the local DNS cache
-<img width="1024" height="768" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/f7515ed6-5472-42fe-b43f-7e600266b7dc" />
+
+<img width="1024" height="687" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/18cabe88-6d5d-4972-ac0b-1b7afd53b54d" />
 
 
 
