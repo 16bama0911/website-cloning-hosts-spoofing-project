@@ -73,7 +73,7 @@ All activity was performed in isolated virtual machines for educational and defe
 This lab highlights several defensive considerations relevant to enterprise environments:
 - Hosts file tampering
     - Monitor unauthorized changes to:
-        C:\Windows\System32\drivers\etc\hosts
+        - C:\Windows\System32\drivers\etc\hosts
     - Unexpected local web services
         - Detect HTTP servers running on non-standard ports
 - DNS anomalies
