@@ -33,6 +33,7 @@ All activity was performed in isloated virtual machines for educational and defe
 - Hosted the cloned website on the Ubuntu server using a lightweight Python HTTP server:
   
     #### python3 -m http.server 8000
+  
 - Verified the service was actively listening on all interfaces using:
   
     #### ss -tuln
