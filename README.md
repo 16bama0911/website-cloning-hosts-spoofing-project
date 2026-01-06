@@ -29,3 +29,13 @@ All activity was performed in isloated virtual machines for educational and defe
 
 <img width="1280" height="800" alt="02_modified_site_content" src="https://github.com/user-attachments/assets/92cbdbae-acbe-477c-b89c-18a26c84513a" />
 
+### 2. Local Web Server Hosting
+- Hosted the cloned website on the Ubuntu server using a lightweight Python HTTP server:
+    python3 -m http.server 8000
+- Verified the service was actively listening on all interfaces using:
+    ss -tuln
+
+<img width="1280" height="263" alt="01_server_listening_port_8000" src="https://github.com/user-attachments/assets/0afa82b0-d81b-4c18-945c-9bdb61d9ea9b" />
+
+
+
