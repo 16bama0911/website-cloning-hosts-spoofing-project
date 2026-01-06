@@ -72,14 +72,14 @@ All activity was performed in isolated virtual machines for educational and defe
 ### Defensive and Detection Analysis
 This lab highlights several defensive considerations relevant to enterprise environments:
 - Hosts file tampering
-      - Monitor unauthorized changes to:
-          C:\Windows\System32\drivers\etc\hosts
-- Unexpected local web services
-      - Detect HTTP servers running on non-standard ports
+    - Monitor unauthorized changes to:
+        C:\Windows\System32\drivers\etc\hosts
+    - Unexpected local web services
+        - Detect HTTP servers running on non-standard ports
 - DNS anomalies
-      - Identify domains resolving to private IP ranges
+    - Identify domains resolving to private IP ranges
 - User awareness
-      - Suspicious document downloads from trusted-looking domains
+    - Suspicious document downloads from trusted-looking domains
   
 Additional defensive discussion is available in notes/defensive_analysis.md
 
