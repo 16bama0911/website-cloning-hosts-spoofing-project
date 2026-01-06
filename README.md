@@ -57,6 +57,16 @@ All activity was performed in isloated virtual machines for educational and defe
 
 <img width="1024" height="687" alt="05_spoofed_domain_loaded" src="https://github.com/user-attachments/assets/03ec2906-1109-41f2-a99b-a7154f8c983b" />
 
+### 6. Document Delivery Simulation
+- Delivered a benign placeholder PDF through the cloned website
+- Verified successful document access through the spoofed domain
+- No executable or malicious content was included
+
+<img width="1024" height="684" alt="06_pdf_delivery_success" src="https://github.com/user-attachments/assets/06ffcd78-5530-46dc-828f-efcf96b05da6" />
+
+
+
+
 
 
 
