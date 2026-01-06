@@ -51,6 +51,13 @@ All activity was performed in isloated virtual machines for educational and defe
 
 <img width="1024" height="684" alt="04_dns_resolution_verified" src="https://github.com/user-attachments/assets/4c74df56-f335-448a-9383-0c68fe979b41" />
 
+### 5. Spoofed Domain Access
+- Accessed the cloned website using the spoofed domain from the Windows client
+- Confirmed successful redirection without using external DNS infrastructure
+
+<img width="1024" height="687" alt="05_spoofed_domain_loaded" src="https://github.com/user-attachments/assets/03ec2906-1109-41f2-a99b-a7154f8c983b" />
+
+
 
 
 
