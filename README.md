@@ -45,6 +45,13 @@ All activity was performed in isloated virtual machines for educational and defe
 
 <img width="1024" height="687" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/18cabe88-6d5d-4972-ac0b-1b7afd53b54d" />
 
+### 4. DNS Resolution Verification
+- Confirmed spoofed domain resolution prior to browser access
+- Validated that the domain resolved to the internal server IP using ICMP
+
+<img width="1024" height="684" alt="04_dns_resolution_verified" src="https://github.com/user-attachments/assets/4c74df56-f335-448a-9383-0c68fe979b41" />
+
+
 
 
 
