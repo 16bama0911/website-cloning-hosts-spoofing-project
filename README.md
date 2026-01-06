@@ -16,6 +16,10 @@ All activity was performed in isolated virtual machines for educational and defe
 | Component  | Details            |
 |:-----------|:------------------:|
 | Hypervisor | VMware Workstation |
+| ClientVM   | Windows (hosts file modification & user access) |
+| ServerVM   | Ubuntu Linux (web hosting) |
+| Tools      | HTTrack, Python HTTP server |
+| Network    | Host-only/NAT (isolated lab) |
 
 - Hypervisor|VMware Workstation
 - ClientVM|Windows(hosts file modification & user access)
