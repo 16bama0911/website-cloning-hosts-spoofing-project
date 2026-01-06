@@ -21,12 +21,6 @@ All activity was performed in isolated virtual machines for educational and defe
 | Tools      | HTTrack, Python HTTP server |
 | Network    | Host-only/NAT (isolated lab) |
 
-- Hypervisor|VMware Workstation
-- ClientVM|Windows(hosts file modification & user access)
-- ServerVM|Ubuntu Linux (web hosting)
-- Tools|HTTrack, Python HTTP server
-- Network|Host-only/NAT (isolated lab)
-
 ### Attack Simulation Workflow
 #### 1. Test Website Creation & Cloning
 - Created a temporary, publicly accessible test website specifically for this lab
