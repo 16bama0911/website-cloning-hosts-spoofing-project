@@ -32,16 +32,16 @@ All activity was performed in isolated virtual machines for educational and defe
 
 ### 2. Local Web Server Hosting
 - Hosted the cloned website on the Ubuntu server using a lightweight Python HTTP server:
-    #### python3 -m http.server 8000
+    python3 -m http.server 8000
   
 - Verified the service was actively listening on all interfaces using:
-    #### ss -tuln
+    ss -tuln
 
 <img width="1280" height="263" alt="01_server_listening_port_8000" src="https://github.com/user-attachments/assets/0afa82b0-d81b-4c18-945c-9bdb61d9ea9b" />
 
 ### 3. Hosts File Modification (Local DNS Spoofing)
 - Edited the Windows hosts file to override DNS resolution and redirect a lab domain to the Ubuntu server:
-    #### <server_ip> training-portal.local
+    <server_ip> training-portal.local
 - Applied changes by flushing the local DNS cache
 
 <img width="1024" height="687" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/18cabe88-6d5d-4972-ac0b-1b7afd53b54d" />
