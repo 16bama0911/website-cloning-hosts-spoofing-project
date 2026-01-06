@@ -38,5 +38,12 @@ All activity was performed in isloated virtual machines for educational and defe
 
 <img width="1280" height="263" alt="01_server_listening_port_8000" src="https://github.com/user-attachments/assets/0afa82b0-d81b-4c18-945c-9bdb61d9ea9b" />
 
+### 3. Hosts File Modification (Local DNS Spoofing)
+- Edited the Windows hosts file to override DNS resolution and redirect a lab domain to the Ubuntu server:
+    #### <server_ip> training-portal.local
+- Applied changes by flushing the local DNS cache
+<img width="1024" height="768" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/f7515ed6-5472-42fe-b43f-7e600266b7dc" />
+
+
 
 
