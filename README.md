@@ -69,20 +69,6 @@ All activity was performed in isolated virtual machines for educational and defe
 
 <img width="1024" height="684" alt="06_pdf_delivery_success" src="https://github.com/user-attachments/assets/06ffcd78-5530-46dc-828f-efcf96b05da6" />
 
-### Defensive and Detection Analysis
-This lab highlights several defensive considerations relevant to enterprise environments:
-- Hosts file tampering
-    - Monitor unauthorized changes to:
-        - C:\Windows\System32\drivers\etc\hosts
-    - Unexpected local web services
-        - Detect HTTP servers running on non-standard ports
-- DNS anomalies
-    - Identify domains resolving to private IP ranges
-- User awareness
-    - Suspicious document downloads from trusted-looking domains
-  
-Additional defensive discussion is available in notes/defensive_analysis.md
-
 ### Ethical and Legal Notice
 This project was conducted strictly within an isolated lab environment. No real users, credentials, or production systems were targeted. All content and infrastructure were created solely for educational and defensive research purposes.
 
