@@ -48,7 +48,7 @@ All activity was performed in isolated virtual machines for educational and defe
 
 - Applied changes by flushing the local DNS cache
 
-- Accessed the site via `http://training-portal.local:8000` (server was running on port 8000).
+- Can now access the site via `http://training-portal.local:8000` (server running on port 8000).
 
 <img width="1024" height="687" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/18cabe88-6d5d-4972-ac0b-1b7afd53b54d" />
 
