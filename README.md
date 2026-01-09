@@ -54,7 +54,7 @@ All activity was performed in isolated virtual machines for educational and defe
 
 ### 4. DNS Resolution Verification
 - Confirmed spoofed domain resolution prior to browser access
-- Validated that the domain resolved to the internal server IP using ICMP
+- Validated that the domain resolved to the internal server IP using ICMP-bases tools—`ping`
 
 <img width="1024" height="684" alt="04_dns_resolution_verified" src="https://github.com/user-attachments/assets/4c74df56-f335-448a-9383-0c68fe979b41" />
 
