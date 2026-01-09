@@ -83,7 +83,7 @@ This project was conducted strictly within an isolated lab environment. No real 
   - Professional cybersecurity documentation
 
 ### Defensive & Detection Analysis
-defensive detection opportunities:
+Defensive detection opportunities:
   - **Hosts File Tampering:** Monitor unauthorized changes to `C:\Windows\System32\drivers\etc\hosts` using file integrity monitoring or Endpoint Detection and Response (EDR).
   - **Unexpected local web services:** Detect user systems hosting HTTP services on non-standard ports (e.g. port 8000).
   - **DNS anomalies:** Identify domains resolving to private IP addresses (e.g. `192.168.x.x`) instead of expected public ranges.
