@@ -18,35 +18,37 @@ All activity was performed in isolated virtual machines for educational and defe
 | Hypervisor | VMware Workstation |
 | ClientVM   | Windows (hosts file modification & user access) |
 | ServerVM   | Ubuntu Linux (web hosting) |
-| Tools      | HTTrack, Python HTTP server |
+| Tools      | `HTTrack`, `Python HTTP server` |
 | Network    | Host-only/NAT (isolated lab) |
 
 ### Attack Simulation Workflow
 #### 1. Test Website Creation & Cloning
 - Created a temporary, publicly accessible test website specifically for this lab
-- Used HTTrack to clone the site to simulate how attackers mirror legitimate web content
+- Used `HTTrack` to clone the site to simulate how attackers mirror legitimate web content
 - Preserved directory structure and internal links for realism
 - No real organization or production websites were used
 
 <img width="1280" height="800" alt="02_modified_site_content" src="https://github.com/user-attachments/assets/92cbdbae-acbe-477c-b89c-18a26c84513a" />
 
 ### 2. Local Web Server Hosting
-- Hosted the cloned website on the Ubuntu server using a lightweight Python HTTP server:
-  
+- Hosted the cloned website on the Ubuntu server using a lightweight `Python HTTP server`:
+  ```bash
   python3 -m http.server 8000
-  
+  ```
 - Verified the service was actively listening on all interfaces using:
-  
+  ```bash
   ss -tuln
-
+  ```
 <img width="1280" height="263" alt="01_server_listening_port_8000" src="https://github.com/user-attachments/assets/0afa82b0-d81b-4c18-945c-9bdb61d9ea9b" />
 
 ### 3. Hosts File Modification (Local DNS Spoofing)
 - Edited the Windows hosts file to override DNS resolution and redirect a lab domain to the Ubuntu server:
 
-  <server_ip> training-portal.local
+  `<server_ip> training-portal.local`
 
 - Applied changes by flushing the local DNS cache
+
+- Accessed the site via `http://training-portal.local:8000` (server was running on port 8000).
 
 <img width="1024" height="687" alt="03_hosts_file_spoofing" src="https://github.com/user-attachments/assets/18cabe88-6d5d-4972-ac0b-1b7afd53b54d" />
 
@@ -82,7 +84,7 @@ This project was conducted strictly within an isolated lab environment. No real 
 
 ### Defensive & Detection Analysis
 defensive detection opportunities:
-- **Host File Tampering:** Monitor unauthorized changes to 'C:\Windows\System32\drivers\etc\hosts' using file integrity monitoring or Endpoint Detection and Response (EDR).
+- **Host File Tampering:** Monitor unauthorized changes to `C:\Windows\System32\drivers\etc\hosts` using file integrity monitoring or Endpoint Detection and Response (EDR).
 - **Unexpected local web services:** Detect user systems hosting HTTP services on non-standard ports (e.g. port 8000).
 - **DNS anomalies:** Identify domains resolving to private IP addresses (e.g. 192.168.x.x) instead of expected public ranges.
 - **User awareness:** Train users to report unexpected document donwloads from trusted-looking domains.
