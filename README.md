@@ -24,7 +24,7 @@ All activity was performed in isolated virtual machines for educational and defe
 ### Attack Simulation Workflow
 #### 1. Test Website Creation & Cloning
 - Created a temporary, publicly accessible test website specifically for this lab
-- Used `HTTrack` and terminal based text editor to clone and edit the site—simulating how attackers mirror legitimate web content.
+- Used `HTTrack` and terminal based text editor to clone and edit the site—simulating how attackers mirror legitimate web content
 - Preserved directory structure and internal links for realism
 - No real organization or production websites were used
 
