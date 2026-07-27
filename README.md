@@ -39,7 +39,7 @@ All activity was performed in isolated virtual machines for educational and defe
     ```bash
     ss -tuln
     ```
-<img width="1280" height="263" alt="01_server_listening_port_8000" src="https://github.com/user-attachments/assets/0afa82b0-d81b-4c18-945c-9bdb61d9ea9b" />
+<img width="1280" height="263" alt="01_server_listening_port_8000" src="https://github.com/16bama0911/website-cloning-hosts-spoofing-project/blob/main/screenshots/01_server_listening_port_8000.png" />
 
 ### 3. Hosts File Modification (Local DNS Spoofing)
   - Edited the Windows hosts file to override DNS resolution and redirect a lab domain to the Ubuntu server:
